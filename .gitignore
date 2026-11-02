@@ -1,0 +1,24 @@
+﻿# Secrets & Environment Variables
+.env
+*.env
+backend/.env
+
+# Python Virtual Environment & Cache
+venv/
+*/venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# Node Modules & Vite Builds
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+
+# Audio temp files
+temp_*
+*.mp3
+*.wav
+*.m4a
+*.ogg
